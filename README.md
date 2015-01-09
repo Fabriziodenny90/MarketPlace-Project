@@ -1,3 +1,5 @@
+NOTE: to run this project on NetBeans you need to creade a proper Java DB as indicated in the "persistance" file.
+
 A RMI-based file catalog with a database
 
 Develop a client-server distributed application in Java that allows storing, retrieving and removing files to/from a file catalog that serves as a backup storage.  Clients and a server communicate via RMI (Java RMI or Java IDL). A client is controlled by a user and provides a (G)UI for the user. A server represents a file catalog and provides a remote interface that allows clients to perform the actions listed below. The server uses a database to keep track of users and files at the catalog as described below. The files in the catalog are stored on the server's file system under a special directory on the server site. The server remote interface allows clients to perform the following actions:
