@@ -1,3 +1,5 @@
+# Marketplace (RMI and JPA)
+
 NOTE: to run this project on NetBeans you need to creade a proper Java DB as indicated in the "persistance" file.
 
 A RMI-based file catalog with a database
